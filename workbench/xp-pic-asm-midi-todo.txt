@@ -1,0 +1,17 @@
+xp-midi
+-------
+- documenta tutto su file di testo (per il futuro).
+
+- xp-midi-echo projects:
+	xp-midi-routines	a set of midi routines
+	xp-midi-library		a library version of the midi routines
+	xp-midi-monitor		monitor of midi events
+
+	xp-midi-controller	analog and digital controls to midi-out
+
+	xp-midi-bus
+	xp-midi-merger-2
+	xp-midi-merger-4
+	xp-midi-router
+
+
