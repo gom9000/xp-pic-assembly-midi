@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=src/xp-midi-echo.asm src/xp-midi-echo.asm
+SOURCEFILES_QUOTED_IF_SPACED=src/xp-midi-echo.asm
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/src/xp-midi-echo.o ${OBJECTDIR}/src/xp-midi-echo.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/src/xp-midi-echo.o.d ${OBJECTDIR}/src/xp-midi-echo.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/src/xp-midi-echo.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/src/xp-midi-echo.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/src/xp-midi-echo.o ${OBJECTDIR}/src/xp-midi-echo.o
+OBJECTFILES=${OBJECTDIR}/src/xp-midi-echo.o
 
 # Source Files
-SOURCEFILES=src/xp-midi-echo.asm src/xp-midi-echo.asm
+SOURCEFILES=src/xp-midi-echo.asm
 
 
 CFLAGS=
@@ -96,23 +96,7 @@ ${OBJECTDIR}/src/xp-midi-echo.o: src/xp-midi-echo.asm  nbproject/Makefile-${CND_
 	@${DEP_GEN} -d "${OBJECTDIR}/src/xp-midi-echo.o"
 	@${FIXDEPS} "${OBJECTDIR}/src/xp-midi-echo.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
-${OBJECTDIR}/src/xp-midi-echo.o: src/xp-midi-echo.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/src" 
-	@${RM} ${OBJECTDIR}/src/xp-midi-echo.o.d 
-	@${RM} ${OBJECTDIR}/src/xp-midi-echo.o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/src/xp-midi-echo.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_PICKIT2=1 -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/src/xp-midi-echo.lst\" -e\"${OBJECTDIR}/src/xp-midi-echo.err\" $(ASM_OPTIONS)    -o\"${OBJECTDIR}/src/xp-midi-echo.o\" \"src/xp-midi-echo.asm\" 
-	@${DEP_GEN} -d "${OBJECTDIR}/src/xp-midi-echo.o"
-	@${FIXDEPS} "${OBJECTDIR}/src/xp-midi-echo.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
-	
 else
-${OBJECTDIR}/src/xp-midi-echo.o: src/xp-midi-echo.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/src" 
-	@${RM} ${OBJECTDIR}/src/xp-midi-echo.o.d 
-	@${RM} ${OBJECTDIR}/src/xp-midi-echo.o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/src/xp-midi-echo.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/src/xp-midi-echo.lst\" -e\"${OBJECTDIR}/src/xp-midi-echo.err\" $(ASM_OPTIONS)    -o\"${OBJECTDIR}/src/xp-midi-echo.o\" \"src/xp-midi-echo.asm\" 
-	@${DEP_GEN} -d "${OBJECTDIR}/src/xp-midi-echo.o"
-	@${FIXDEPS} "${OBJECTDIR}/src/xp-midi-echo.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
-	
 ${OBJECTDIR}/src/xp-midi-echo.o: src/xp-midi-echo.asm  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/src" 
 	@${RM} ${OBJECTDIR}/src/xp-midi-echo.o.d 

@@ -5,6 +5,7 @@
         <group name="xp-midi">
             <file>file:/D:/MYA/my/electronics/public/gos95-electronics/gos95-electronics.experience/xp-midi/xp-midi-routines.X/src/xp-midi-routines.asm</file>
         </group>
+        <group name="pic-assembly-midi-xp"/>
         <group/>
     </open-files>
 </project-private>
